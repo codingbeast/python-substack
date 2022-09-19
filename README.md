@@ -10,4 +10,6 @@ Python versions from 3.8+.
 
 You can install python-substack using:
 
-    $ pip install python-substack
+    $ pip install python-substack  
+    $ pip uninstall python-substack  
+    $ python3 -m build

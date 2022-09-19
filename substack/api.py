@@ -16,11 +16,11 @@ class Api:
 
     def __init__(
             self,
-            email: str | None = None,
-            password: str | None = None,
-            base_url: str | None = None,
-            publication_url: str | None = None,
-            debug: bool = False,
+            email = None,
+            password  = None,
+            base_url  = None,
+            publication_url  = None,
+            debug  = False,
     ):
         """
 
@@ -220,8 +220,8 @@ class Api:
                                      params={"page": page})
         return Api._handle_response(response=response)
 
-    def get_single_category(self, category_id: int, category_type: str, page: int | None = None,
-                            limit: int | None = None):
+    def get_single_category(self, category_id: int, category_type: str, page  = None,
+                            limit  = None):
         """
 
         Args:
